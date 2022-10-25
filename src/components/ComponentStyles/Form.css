@@ -1,0 +1,38 @@
+* {
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+}
+.country-select {
+  min-width: 50%;
+  border-radius: 5px;
+  background-color: inherit;
+  border-color: rgba(240, 248, 255, 0.562);
+  min-height: 36px;
+}
+
+.countryyy {
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: auto 1fr auto 1fr;
+  justify-items: start;
+  
+}
+
+.flight-form {
+  background-color: rgb(29, 28, 28);
+  padding: 20px;
+  margin: 210px 150px;
+  opacity: 80%;
+  border-radius: 20px;
+}
+.country-select {
+  width: max-content;
+  height: 35px;
+}
+.btn-danger {
+  margin-left: 110px;
+}
+#country-select {
+  margin-left: 50px;
+}

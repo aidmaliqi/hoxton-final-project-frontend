@@ -1,0 +1,40 @@
+* {
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+}
+.slideshow {
+  margin: 0 auto;
+  width: 100%;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  z-index: -1;
+}
+.slide {
+  height: 500px;
+  width: 100%;
+  object-fit: cover;
+
+  
+}
+.slideshowSlider {
+  white-space: nowrap;
+  transition: ease-out 1000ms;
+}
+.slideshowButtons {
+  text-align: center;
+}
+
+.slideshowButton {
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  cursor: pointer;
+  margin: 15px 7px 0px;
+  background-color: #c4c4c4;
+}
+.slideshowButton.active {
+  background-color: #000000;
+}

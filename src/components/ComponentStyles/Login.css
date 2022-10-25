@@ -1,0 +1,21 @@
+.cascading-right {
+    margin-right: -50px;
+  }
+
+  @media (max-width: 991.98px) {
+    .cascading-right {
+      margin-right: 0;
+    }
+  }
+  .logoo{
+    width: 80px;
+    height: 60px;
+    align-self: center;
+  }
+  .colcol{
+    justify-content: center;
+  }
+  #logo-img{
+    height: 80px;
+    width: 100px;
+  }

@@ -1,0 +1,45 @@
+* {
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+/*.header {
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  gap: 4rem;
+  padding: 10px 40px;
+  background-color: rgb(190, 185, 185);
+  opacity: 80%;
+  align-items: center;
+  position: sticky;
+}
+.header-links {
+  display: grid;
+  grid-auto-flow: column;
+  list-style: none;
+  align-items: center;
+  color: white;
+  font-weight: 600;
+  font-size: 17px;
+}
+
+.Links {
+  text-decoration: none;
+  cursor: pointer;
+}*/
+#navvbar {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 2;
+}
+.logoo {
+  width: 80px;
+  height: 60px;
+}
+#navbarDropdownMenuAvatar {
+  width: 40px;
+  height: 40px;
+}
