@@ -28,6 +28,7 @@ export function Footer() {
                   type="email"
                   label="Email address"
                   className="mb-4"
+                  
                 />
               </MDBCol>
 
